@@ -44,16 +44,6 @@ The script exposes the following configurable fields:
 
 For isolation tests, enable only one disable flag at a time.
 
-## Test Usage
-
-- Baseline
-  - Use lower `vus` and `mode: 'real'` to establish normal behavior.
-- Scaling
-  - Increase `vus` gradually while keeping other parameters stable.
-- Stress
-  - Use high `vus` with `mode: 'benchmark'` to push system limits.
-- Bottleneck isolation
-  - Toggle one disable flag at a time to identify subsystem impact.
 
 ## Notes / Warnings
 
