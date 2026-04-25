@@ -2,8 +2,8 @@ import http from 'k6/http';
 
 export const options = {
   vus: 300,          // user count
-  duration: '1m',    // change if needed
-  //iterations: 1000,   //used instead of duration
+  duration: '1m',    // used in benchmark mode
+  //iterations: 3,   //used in real mode instead of duration
 };
 
 export default function () {
